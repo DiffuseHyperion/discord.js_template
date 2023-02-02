@@ -19,13 +19,13 @@ Is a discord.js template for beginners who don't know where to begin.
   "activity": "activity here"
   ```
 
-  (TODO)
+  Your bot's activity. (For example: Setting the activity to "video games" will show the bot's activity as "Playing video games"
 
   ```
   "ownerid": "owner id here"
   ```
 
-  (TODO)
+  Your profile ID. Not used at the moment.
 
   ```
   "prefix": "prefix here"

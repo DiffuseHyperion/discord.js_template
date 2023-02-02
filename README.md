@@ -46,9 +46,16 @@ Is a discord.js template for beginners who don't know where to begin.
 
   Your bot's permission value. You can calculate this under your application's 'Bot' tab.
 
-  ## Bot token
+  ## Bot token:
   You will also need to go into the '.env' file to put in your bot token.
   ### Be sure to keep this token a secret, otherwise other people can control your bot!
+  
+  ## Starting the bot:
+  Run
+  ```
+  npm start
+  ```
+  to start the bot. An invite link for your bot will appear in the console. Use the link to invite the bot like any other bot.
 # Socials:
   [Twitch][twitch]
 

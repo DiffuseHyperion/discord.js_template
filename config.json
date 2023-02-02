@@ -2,6 +2,6 @@
     "activity": "activity here",
     "ownerid": "owner id here",
     "prefix": "prefix here",
-    "botid": "bot id here",
+    "appid": "app id here",
     "permval": "permission value here"
 }

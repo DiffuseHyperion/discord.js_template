@@ -2,23 +2,53 @@
 Is a discord.js template for beginners who don't know where to begin.
 
 # How to use:
-  To start the bot, run download the modules that you need! You can do so by running this command!    
+  ## Installation:
+  Before starting, you need to download the disord.js module. Do so by running:  
+
   ```
   npm i
   ```
-  If this project has the modules outdated in the `package.json` folder, you can run the following to update them!
+  You should also update the modules in case they are outdated:
   ```
   npm update
   ```
-  Go to the `config.json` file and add the items such as the prefix and owner ID!     
-  Since the index.js reads the token via the `.env` file, you need to create a .env file and put in the following:
+  ## Config:
+  Go to the `config.json` file and fill in the items accordingly.
+
   ```
-  token = TOKEN_HERE
+  "activity": "activity here"
   ```
-# Invite Link
-  replace current placeholder id with your bot's client id for a valid discord bot invite link\
-  replace permissions value (you can generate one in the discord developer portal)\
-  ```https://discord.com/oauth2/authorize?client_id=123456789&scope=bot&permissions=8```
+
+  (TODO)
+
+  ```
+  "ownerid": "owner id here"
+  ```
+
+  (TODO)
+
+  ```
+  "prefix": "prefix here"
+  ```
+
+  The prefix needed to run any command.
+  (For example: Assuming the prefix is "!", run help.js with "!help")
+  
+  ```
+  "appid": "app id here"
+  ```
+
+  Your application's id. You can find this under your application's 'General Information' tab.
+  
+  ```
+  "permval": "permission value here"
+  ```
+
+  Your bot's permission value. You can calculate this under your application's 'Bot' tab.
+
+  ## Bot token
+  You will also need to go into the '.env' file to put in your bot token.
+  ### Be sure to keep this token a secret, otherwise other people can control your bot!
 # Socials:
   [Twitch][twitch]
 
